@@ -27,3 +27,13 @@ int main() {
   std::cout << std::endl;
   return 0;
 }
+
+long Factorial(int no,int x){
+  if no>1
+    return no* x;
+    x=x-1;
+}
+
+long nCr(int n, int r){
+  nCr = n!/ r!(n−r)!
+}
